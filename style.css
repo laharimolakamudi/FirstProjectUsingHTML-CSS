@@ -1,0 +1,104 @@
+body{
+    margin:0px;
+    padding:0px;
+    background: url('image.webp');
+    background-repeat: no-repeat;
+    background-size: 1600px 1200px ; 
+    color: white;
+    font-family: cursive;
+}
+.left{
+
+    display: inline-block;
+    position:absolute;
+    left:60px;
+    top:20px;
+    /* border: 2px solid red ; */
+}
+.left img{
+    width:90px;
+    /* height: 70px; */
+    filter:invert(100%);
+   
+}
+.right{
+    display: inline-block;
+    position:absolute;
+    right:34px;
+    top:20px;
+
+}
+.center{
+    display: block;
+    width:40%;
+    margin:29px auto;
+
+}
+.navbar{
+    display: inline-block;
+
+}
+.navbar li {
+    
+    display: inline-block;
+    font-size: 17px;
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    padding:34px 23px;
+}
+.navbar li a:hover{
+    color:coral;
+    text-decoration: underline;
+}
+.left div{
+    text-align: center;
+    position:relative;
+    bottom: 22px;
+} 
+.butn{
+    margin:0px 9px;
+    color: white;
+    background-color: black;
+    padding:4px 14px;
+    border:2px solod grey;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: cursive;
+    }
+    .butn:hover{
+        background-color: coral;
+        
+    }
+    .container{
+        margin:106px 80px;
+        padding:75px;
+        border:2px solid white;
+        border-radius: 28px;
+        width: 33%;
+
+    }
+    .formgroup input{
+        text-align: center;
+        display: block;
+        width: 350px;
+        padding: 1px;
+        margin: 11px auto;
+        border: 2px solid black;
+        border-radius: 8px;
+        font-size: 25px;
+        font-family: cursive;
+
+    }
+   .container h1{
+       text-align: center;
+
+
+    }
+    .container button{
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
